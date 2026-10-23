@@ -1,0 +1,29 @@
+[
+  {
+    "mode": "dict",
+    "storage": "Python dictionary",
+    "median_successful_lookups_per_second": 1098939.2955440963,
+    "median_mean_microseconds_per_attempt": 0.9099683704593433,
+    "errors": 0,
+    "sqlite_mapping_reads": 0,
+    "total_attempts": 16469500
+  },
+  {
+    "mode": "sqlite",
+    "storage": "SQLite",
+    "median_successful_lookups_per_second": 19501.48591721804,
+    "median_mean_microseconds_per_attempt": 51.27814384221311,
+    "errors": 0,
+    "sqlite_mapping_reads": 291000,
+    "total_attempts": 291000
+  },
+  {
+    "mode": "redis",
+    "storage": "SQLite + Redis, warm cache",
+    "median_successful_lookups_per_second": 13958.686604843453,
+    "median_mean_microseconds_per_attempt": 71.63997790830945,
+    "errors": 0,
+    "sqlite_mapping_reads": 0,
+    "total_attempts": 212000
+  }
+]

@@ -1,7 +1,4 @@
-fastapi>=0.100.0
-uvicorn>=0.23.0
-sqlalchemy>=2.0.0
-pymysql>=1.1.0
-redis>=5.0.0
-pydantic>=2.0.0
-pydantic-settings>=2.0.0
+fastapi==0.161.1
+pydantic==2.14.0
+redis==8.1.0
+uvicorn==0.54.0

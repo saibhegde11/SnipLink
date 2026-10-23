@@ -1,25 +1,41 @@
-# Python bytecode and cache
+# Python caches and test output
 __pycache__/
 *.py[cod]
 *$py.class
-*.pyo
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
 
-# Environment variables (contains secrets)
-.env
-
-# Environments
-.venv
-env/
+# Local environments and configuration
+.venv/
 venv/
+env/
 ENV/
+.env
+.env.*
+!.env.example
 
-# IDE & OS
+# Local databases and runtime logs
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+!benchmarks/results/**/server_errors/*.log
+
+# Personal interview material and duplicate archives
+*Interview*Guide*
+*interview*guide*
+*.zip
+
+# Editors, operating systems and packaging
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Distribution / packaging
 dist/
 build/
 *.egg-info/
